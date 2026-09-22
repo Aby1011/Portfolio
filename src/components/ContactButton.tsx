@@ -7,7 +7,7 @@ interface ContactButtonProps {
 export default function ContactButton({ className = '' }: ContactButtonProps) {
   return (
     <a
-      href="https://mail.google.com/mail/?view=cm&fs=1&to=jabhi8761@gmail.com&su=Portfolio%20Contact"
+      href={`https://mail.google.com/mail/?view=cm&fs=1&to=${SITE.email}&su=Portfolio%20Contact`}
       target="_blank"
       rel="noopener noreferrer"
       className={`inline-block rounded-full px-8 py-3 text-xs font-medium uppercase tracking-widest text-white transition-opacity hover:opacity-90 sm:px-10 sm:py-3.5 sm:text-sm md:px-12 md:py-4 md:text-base ${className}`}
