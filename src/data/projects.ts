@@ -22,6 +22,7 @@ export const PROJECTS: Project[] = [
     stack: ['Python', 'React', 'SQLite'],
     description:
       'Remote healthcare platform with role-based dashboards, alert detection, and QR-based prescription verification.',
+    liveUrl: 'https://care-track-tau.vercel.app/',
     images: {
       leftTop: '/assets/caretrack-1.png',
       leftBottom: '/assets/caretrack-2.png',
